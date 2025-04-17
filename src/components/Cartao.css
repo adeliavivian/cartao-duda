@@ -1,0 +1,81 @@
+.cartao {
+    width: 430px;
+    height: 844px;
+    background: linear-gradient(to bottom, #610303, #000000);
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .topo {
+    text-align: center;
+  }
+  
+  .logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-right: 50px;
+  }
+  
+  .topo h1 {
+    font-size: 28px;
+    margin: 0;
+    margin-right: 50px;
+  }
+  
+  .posicao {
+    font-size: 16px;
+    color: #d4af37;
+    margin-top: 20px;
+    margin-right: 50px;
+  }
+  
+  .foto-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .foto {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+
+  }
+  
+  .frase {
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    color: #ccc;
+    margin-bottom: 10px;
+    margin-right: 50px;
+  }
+  
+  .rodape {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #eee;
+    padding-top: 10px;
+    border-top: 1px solid #444;
+  }
+  
+  .rodape a {
+    color: #d4af37; /* Cor dourada */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .rodape a:hover {
+    color: #fff; /* Cor de destaque ao passar o mouse */
+  }
+  
